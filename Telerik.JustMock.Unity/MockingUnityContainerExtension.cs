@@ -85,7 +85,7 @@ namespace Telerik.JustMock.Unity
 			public override void PreBuildUp(IBuilderContext context)
 			{
 				var key = context.OriginalBuildKey;
-				if (!extension.Container.IsRegistered(key.Type, key.Name))
+				if (!this.extension.Container.IsRegistered(key.Type, key.Name))
 				{
 					context.Existing = this.extension.RegisterMock(key.Type, key.Name);
 				}
