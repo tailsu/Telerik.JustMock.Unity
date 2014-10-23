@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>JustMock.Unity</id>
+    <title>JustMock.Unity</title>
+    <version>1.0.0</version>
+    <authors>dragnev</authors>
+    <owners>dragnev</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <projectUrl>https://github.com/tailsu/Telerik.JustMock.Unity</projectUrl>
+    <iconUrl>http://www.telerik.com/sfimages/default-source/logos/jm_32x32.png?sfvrsn=2</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Mocking container extension for unit-testing Unity-based projects.</description>
+    <copyright>Copyright 2014</copyright>
+    <tags>justmock unity</tags>
+    <dependencies>
+      <dependency id="JustMock" version="2014.1.1424.1" />
+	  <dependency id="Unity" version="3.5.1404.0" />
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="Telerik.JustMock.Unity\bin\Release\Telerik.JustMock.Unity.dll" target="lib/Net45"/>
+    <file src="Telerik.JustMock.Unity\bin\Release\Telerik.JustMock.Unity.xml" target="lib/Net45"/>
+  </files>
+</package>
